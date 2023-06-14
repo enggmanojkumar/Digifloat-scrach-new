@@ -116,6 +116,48 @@ h6 {
   }
 }
 
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .order-1{
+        order:0 !important;
+    }
+
+    .responsive-mobile .col-lg-6{
+    width: 100% !important;
+}
+
+.align-items-stretch{
+  width: 100% !important;
+}
+
+.client-review{
+  margin-top: 10px !important;
+}
+
+#services .clients-heading{
+  padding: 24px 20px 0px 20px !important;
+}
+
+#footer .footer-top .footer-links{
+  margin-left: 5px !important;
+}
+
+.offset-1 {
+    margin-left: 5px !important; 
+}
+
+.bi-list::before {
+
+    color: black !important;
+}
+
+.get-started-btn{
+  margin-top: 10px !important;
+  margin-right: 0px !important;
+}
+
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -442,7 +484,7 @@ h6 {
 }
 
 #hero .col-lg-6 {
-  width: 47.25% !important;
+  width: 47.25%;
   
   
 }
